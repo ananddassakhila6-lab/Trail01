@@ -1,3 +1,5 @@
-resource "aws_subnet" "name" {
-  
+resource "aws_vpc" "name" {
+  tags = {
+    Name="vpc"
+  }
 }
